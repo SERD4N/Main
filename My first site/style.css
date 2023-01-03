@@ -1,0 +1,303 @@
+body{
+    margin: 0;
+    background-color:  whitesmoke;
+    height: 100%;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0, 191, 255);
+    display: flex;
+    position: fixed;
+    margin-bottom: 20px;
+    margin: 0px;
+    border-bottom: 3px black solid;
+}
+.logo{
+    background-image: url("logo.png");
+    background-size: cover;
+    width: 110px;
+    height: 80px;
+    margin-left: 100px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 600px;
+    right: 200px;
+    margin-top: 30px;
+    color: white;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-align:center;
+}
+main{
+    padding-top: 80px;
+    min-height: 700px;
+}
+.baikal{
+    background-image: url("baikal.jpg");
+    background-size: cover;
+    height: 100vh;
+    margin-top: 20px;
+    background-attachment: fixed;
+    border-bottom: 5px black solid;
+}
+.death_sea{
+    background-image: url("death sea.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    border-bottom: 5px black solid;
+}
+.everest{
+    background-image: url("everest.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    border-bottom: 5px black solid;
+}
+.luvr{
+    background-image: url("luvr.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    border-bottom: 5px black solid;
+}
+.machupikchu{
+    background-image: url("machupikchu.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.footer{
+    position: absolute;
+    display: block;
+    text-align: center;
+    color: white;
+    margin-top: 90%;
+    background-color: grey;
+    height: 100px;
+    width: 100%;
+}
+.contacts:hover{
+    border-bottom: 2px black solid;
+}
+.about_us:hover{
+    border-bottom: 2px black solid;
+}
+.Eurasia{
+    display: none;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(34, 218, 231);
+    border: 1px black solid;
+    font-family: Qwerty;
+}
+.North_America{
+    display: none;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(34, 218, 231);
+    border: 1px black solid;
+    font-family: Qwerty;
+}
+.South_America{
+    display: none;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(34, 218, 231);
+    border: 1px black solid;
+    font-family: Qwerty;
+}
+.Africa{
+    display: none;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(34, 218, 231);
+    border: 1px black solid;
+    font-family: Qwerty;
+}
+.Australia{
+    display: none;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(34, 218, 231);
+    border: 1px black solid;
+    font-family: Qwerty;
+}
+.adventures:hover .Eurasia{
+    display: block;
+}
+.adventures:hover .North_America{
+    display: block;
+}
+.adventures:hover .South_America{
+    display: block;
+}
+.adventures:hover .Africa{
+    display: block;
+}
+.adventures:hover .Australia{
+    display: block;
+}
+.adventures:hover .continents{
+    margin-top: 50px;
+}
+.plane{
+    display: none;
+    position: relative;
+    margin-right: 100%;
+    height: 50px;
+    width: 100px;
+}
+.footer:hover .plane{
+    display: block;
+    animation-name: fly;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+}
+@keyframes fly{
+    0%{
+        margin-left: 0px;
+    }
+    25%{
+        margin-left: 25%;
+    }
+    50%{
+        margin-left: 50%;
+    }
+    75%{
+        margin-left: 75%;
+    }
+    100%{
+        margin-left: 100%;
+    }
+}
+.instagram{
+    width: 300px;
+    height: 300px;
+}
+.vk{
+    width: 500px;
+    height: 300px;
+}
+.youtube{
+    width: 400px;
+    height: 300px;
+}
+.flex2{
+    display: flex;
+    justify-content: center;
+}
+@font-face {
+    font-family: Arial;
+    src: url("20780.ttf");
+}
+@font-face {
+    font-family: Beautiful;
+    src: url("20552.otf");
+}
+@font-face {
+    font-family: Qwerty;
+    src: url("13588.ttf");
+}
+.about_us{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contacts{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.adventures{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    font-family: Beautiful;
+}
+h2{
+    text-align: center;
+    font-family: Qwerty;
+}
+h3{
+    text-align: center;
+    font-family: Qwerty;
+}
+h4{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.baikal_flex{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 700px; 
+    margin-bottom: 10px;  
+}
+.baikal2{
+    width: 100%;
+    background-image: url("baikal2.jpg");
+    background-size: cover;
+}
+.baikal3{
+    width: 100%;
+    background-image: url("baikal3.jpg");
+    background-size: cover;
+}
+.baikal4{
+    width: 100%;
+    background-image: url("baikal4.jpg");
+    background-size: cover;
+}
+.reykhstag_flex{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 700px; 
+    margin-bottom: 10px;  
+}
+.reykhstag1{
+    width: 100%;
+    background-image: url("reykhstag.jpg");
+    background-size: cover;
+}
+.reykhstag2{
+    width: 100%;
+    background-image: url("reykhstag2.jpg");
+    background-size: cover;
+}
+.reykhstag3{
+    width: 100%;
+    background-image: url("reykhstag3.jpg");
+    background-size: cover;
+}
+.pripyat_flex{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 700px; 
+    margin-bottom: 10px; 
+}
+.pripyat1{
+    width: 100%;
+    background-image: url("pripyat.jpg");
+    background-size: cover;
+}
+.pripyat2{
+    width: 100%;
+    background-image: url("pripyat2.jpg");
+    background-size: cover;
+}
+.pripyat3{
+    width: 100%;
+    background-image: url("pripyat3.jpg");
+    background-size: cover;
+}
